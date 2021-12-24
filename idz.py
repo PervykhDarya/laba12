@@ -3,8 +3,8 @@
 
 import sys
 
-data = set()
-
+if __name__ == '__main__':
+    data = set()
 
 def generate(n, string='', level=0):
     if n == 0:
