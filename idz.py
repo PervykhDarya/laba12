@@ -18,7 +18,7 @@ def generate(n, string='', level=0):
     generate(n, string=line_2, level=level + 2)
     line_3 = f"(){string}"
     generate(n, string=line_3, level=level+2)
-    return 1
+    return string
 
 n = int(input())
 generate(n)
